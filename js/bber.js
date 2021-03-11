@@ -1,5 +1,5 @@
-var loading_pic = document.getElementById('bber-loading');
-loading_pic?.innerHTML = '<span id="moments_loading"><i class="fa fa-spinner fa-spin"></i></span>';
+// var loading_pic = document.getElementById('bber-loading');
+// loading_pic?.innerHTML = '<span id="moments_loading"><i class="fa fa-spinner fa-spin"></i></span>';
 
 app.auth({
   persistence: "none" //避免与同实例冲突
