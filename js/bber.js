@@ -1,16 +1,16 @@
-// var loading_pic = document.getElementById('bber-loading');
-// loading_pic.innerHTML = '<span id="moments_loading"><i class="fa fa-spinner fa-spin"></i></span>';
+var loading_pic = document.getElementById('bber-loading');
+loading_pic?.innerHTML = '<span id="moments_loading"><i class="fa fa-spinner fa-spin"></i></span>';
 
 app.auth({
   persistence: "none" //避免与同实例冲突
-}).anonymousAuthProvider().signIn().then(() => {
+}).anonymousAuthProvider().signIn()?.then(() => {
   var bbClass = '#bber'
   $(bbClass).after('<div class="load"><button class="load-btn button-load">加载中……</button></div>')
   const db = app.database()
   const collection = db.collection('talks')
   var count=0, per = 9,page = 1
   collection.count(function(err,res){
-    count = res.total
+    count = res?.total
     loading_pic.innerHTML = ``;
     $(bbClass).append('<p class="count">共 <span class="count-data">'+count+'</span> 条</p>')
     getList()
