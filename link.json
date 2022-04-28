@@ -1,0 +1,50 @@
+[
+    {
+        "class_name": "友人帐",
+        "class_desc": "那些人",
+        "link_list": [
+            {
+                "name": "Revincx",
+                "link": "https://blog.revincx.icu/",
+                "avatar": "https://cdn.jsdelivr.net/gh/Revincx/blog-assets@master/images/avatar.jpg",
+                "descr": "可爱就是正义~"
+            },
+            {
+                "name": "小冰博客",
+                "link": "https://zfe.one",
+                "avatar": "https://zfe.space/images/headimage.png",
+                "descr": "做个有梦想的人！"
+            },
+            {
+                "name": "贰猹的小窝",
+                "link": "https://noionion.top/",
+                "avatar": "http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg",
+                "descr": "用这生命中的每一秒，给自己一个不后悔的未来"
+            },
+            {
+                "name": "饭饭's Blog",
+                "link": "https://ffis.me",
+                "avatar": "https://img.ffis.me/images/2019/12/21/1.6min.png",
+                "descr": "不忘初心，方得始终！"
+            },
+            {
+                "name": "天昕",
+                "link": "https://sutianxin.top",
+                "avatar": "https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213111233.png",
+                "descr": "往者不谏 来者可追"
+            },
+            {
+                "name": "N0ts Blog",
+                "link": "https://blog.n0ts.cn/",
+                "avatar": "https://cdn.nutssss.cn/wp-content/uploads/2020/02/1581510626-head.png",
+                "descr": "一个爱好钻研技术的咸鱼"
+            },
+            {
+                "name": "北落师门",
+                "link": "https://pengchen.tech",
+                "avatar": "https://tc.pengchen.tech/img/friendlink.png",
+                "descr": "喜欢就加油呀～"
+            }
+        ]
+    }
+]
